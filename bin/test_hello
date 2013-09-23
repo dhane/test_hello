@@ -4,4 +4,4 @@ $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 
 require 'test_hello'
 
-TestHello::Command.run
+TestHello::Command.start(ARGV)
